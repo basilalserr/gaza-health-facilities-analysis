@@ -1,42 +1,48 @@
-# Gaza Health Facilities Analysis (Power BI + GIS)
+# From Data to Impact: Health Service Analysis in Gaza
 
 Data-driven analysis of healthcare service coverage and facility distribution across the Gaza Strip.
 
 ---
 
 ## Project Overview
-This project analyzes the distribution of health facilities and evaluates healthcare service coverage across Gaza.
+This project presents an end-to-end data analysis of healthcare service coverage across Gaza.
 
-It combines Power BI dashboards, GIS spatial analysis, and Python-based data extraction to support evidence-based decision-making in humanitarian contexts.
+The analysis focuses on identifying areas under the highest service pressure using data modeling, spatial analysis, and automated data extraction techniques.
+
+It demonstrates how data can support evidence-based decision-making in humanitarian contexts.
 
 ---
 
-## Objectives
-- Analyze spatial distribution of health facilities  
-- Measure service pressure (people per facility)  
-- Identify underserved and high-need areas  
-- Support strategic healthcare planning  
+## Key Question
+Where are health services under the most pressure?
+
+---
+
+## Methodology
+- Data extracted using Python from WHO ArcGIS REST services  
+- Data cleaned and transformed using Power Query  
+- Data modeled and analyzed in Power BI  
+- GIS mapping used to visualize spatial distribution and service coverage  
 
 ---
 
 ## Tools & Technologies
 - Power BI – Data modeling and visualization  
-- Python – Data extraction and web scraping  
+- Python – Data extraction from WHO ArcGIS REST APIs  
 - Power Query – Data cleaning and transformation  
 - GIS Mapping – Spatial analysis  
 
 ---
 
 ## Data Source
-Data was collected using Python scripts from WHO-related sources and combined with population datasets.
+Data was extracted from WHO-related ArcGIS platforms and combined with population datasets for coverage analysis.
 
 ---
 
 ## Key Insights
-- North Gaza experiences critical pressure (~31,000 people per facility)  
-- Gaza and Khan Younis show moderate pressure (~10,000–13,000)  
-- Deir Al-Balah and Rafah have comparatively lower pressure levels  
-- Clear geographic disparities exist in healthcare access  
+- North Gaza faces critical pressure (~31,000 people per facility)  
+- Gaza and Khan Younis show moderate pressure (~10,000–13,000 people per facility)  
+- Significant disparities exist in healthcare access across regions  
 
 ---
 
@@ -44,8 +50,7 @@ Data was collected using Python scripts from WHO-related sources and combined wi
 - Establish new facilities in high-pressure areas  
 - Expand mobile clinics and outreach programs  
 - Improve referral systems between regions  
-- Strengthen healthcare capacity and resources  
-- Use GIS for future planning and investment  
+- Strengthen healthcare capacity and resource allocation  
 
 ---
 
@@ -72,10 +77,10 @@ Data was collected using Python scripts from WHO-related sources and combined wi
 ---
 
 ## Impact
-This project demonstrates how data analytics can support:
+This project highlights how data analytics can support:
+- Evidence-based decision-making  
 - Better resource allocation  
-- Improved healthcare accessibility  
-- Evidence-based humanitarian decision-making  
+- Improved healthcare accessibility in crisis settings  
 
 ---
 
